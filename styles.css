@@ -86,7 +86,7 @@ li{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
+    color: #2D3748;
 
 }
 
@@ -129,9 +129,12 @@ li{
 }
 
 .box5{
+    
     background:#2C5282 ;
     color:#FFFFFF ;
-    padding-left: 1em;
+    grid-column: 1/3 ;
+    padding-left: 8em ;
+    
 }
 
 ul{
